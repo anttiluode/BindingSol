@@ -18,11 +18,14 @@ Update this file and HANDOFF.md in every meaningful checkpoint commit.
 - [x] Run the complete test suite.
 
 ## Checkpoint 2 — one registered CPU batch
-- [ ] Run seeds 41, 97, 127, 203, 509 without retuning.
-- [ ] Preserve each seed's weights, predictions and metrics.
-- [ ] Record all G0–G4 verdicts, including negative results.
-- [ ] Verify resume and review implementation/claims.
-- [ ] Push code, results, updated checklist and handoff.
+- [x] Run seeds 41, 97, 127, 203, 509 without retuning.
+- [x] Preserve each seed's weights, predictions and metrics.
+- [x] Record all G0–G4 verdicts, including negative results.
+- [x] Verify resume and review implementation/claims (REVIEW.md).
+- [x] Push code, results, updated checklist and handoff (this checkpoint).
+
+G0 PASS; G1/G2/G3 FAIL (2/5; required 4/5); G4 reported.
+See RESULTS.md. Stop after this batch; do not retune v0.
 
 ## Later checkpoints — not authorized evidence claims
 - [ ] Preregister the next test based on v0's actual failure or success.

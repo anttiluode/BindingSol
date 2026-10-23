@@ -1,0 +1,1384 @@
+{
+  "seed": 509,
+  "joint": {
+    "train": 0.75,
+    "test": 0.75,
+    "full": 0.75,
+    "rule_alignment": 0.75,
+    "erased": 0.5,
+    "flipped": 0.25,
+    "opposite_world": 0.25,
+    "random": 0.5
+  },
+  "fresh": {
+    "train": 0.75,
+    "test": 0.75,
+    "full": 0.75,
+    "rule_alignment": 0.75,
+    "erased": 0.5,
+    "flipped": 0.25,
+    "opposite_world": 0.25,
+    "random": 0.5
+  },
+  "direct": {
+    "train": 1.0,
+    "test": 1.0,
+    "full": 1.0
+  },
+  "linear": {
+    "train": 0.5,
+    "test": 0.5,
+    "full": 0.5
+  },
+  "cases": [
+    {
+      "source": [
+        -1,
+        -1,
+        -1
+      ],
+      "query": [
+        -1,
+        -1
+      ],
+      "world": -1,
+      "target": -1,
+      "split": "train",
+      "message": -1,
+      "message_p_plus": 3.220814637737511e-08,
+      "prediction": -1,
+      "erased_prediction": 1,
+      "flipped_prediction": 1,
+      "opposite_world_prediction": -1,
+      "direct_prediction": -1,
+      "linear_prediction": -1
+    },
+    {
+      "source": [
+        -1,
+        -1,
+        -1
+      ],
+      "query": [
+        -1,
+        1
+      ],
+      "world": -1,
+      "target": 1,
+      "split": "test",
+      "message": -1,
+      "message_p_plus": 3.220814637737511e-08,
+      "prediction": 1,
+      "erased_prediction": 1,
+      "flipped_prediction": -1,
+      "opposite_world_prediction": 1,
+      "direct_prediction": 1,
+      "linear_prediction": -1
+    },
+    {
+      "source": [
+        -1,
+        -1,
+        -1
+      ],
+      "query": [
+        1,
+        -1
+      ],
+      "world": -1,
+      "target": 1,
+      "split": "train",
+      "message": -1,
+      "message_p_plus": 3.220814637737511e-08,
+      "prediction": 1,
+      "erased_prediction": 1,
+      "flipped_prediction": -1,
+      "opposite_world_prediction": 1,
+      "direct_prediction": 1,
+      "linear_prediction": -1
+    },
+    {
+      "source": [
+        -1,
+        -1,
+        -1
+      ],
+      "query": [
+        1,
+        1
+      ],
+      "world": -1,
+      "target": -1,
+      "split": "train",
+      "message": -1,
+      "message_p_plus": 3.220814637737511e-08,
+      "prediction": -1,
+      "erased_prediction": 1,
+      "flipped_prediction": 1,
+      "opposite_world_prediction": -1,
+      "direct_prediction": -1,
+      "linear_prediction": -1
+    },
+    {
+      "source": [
+        -1,
+        1,
+        1
+      ],
+      "query": [
+        -1,
+        -1
+      ],
+      "world": -1,
+      "target": -1,
+      "split": "test",
+      "message": -1,
+      "message_p_plus": 3.967341433572365e-08,
+      "prediction": -1,
+      "erased_prediction": 1,
+      "flipped_prediction": 1,
+      "opposite_world_prediction": 1,
+      "direct_prediction": -1,
+      "linear_prediction": -1
+    },
+    {
+      "source": [
+        -1,
+        1,
+        1
+      ],
+      "query": [
+        -1,
+        1
+      ],
+      "world": -1,
+      "target": 1,
+      "split": "train",
+      "message": -1,
+      "message_p_plus": 3.967341433572365e-08,
+      "prediction": 1,
+      "erased_prediction": 1,
+      "flipped_prediction": -1,
+      "opposite_world_prediction": -1,
+      "direct_prediction": 1,
+      "linear_prediction": -1
+    },
+    {
+      "source": [
+        -1,
+        1,
+        1
+      ],
+      "query": [
+        1,
+        -1
+      ],
+      "world": -1,
+      "target": 1,
+      "split": "train",
+      "message": -1,
+      "message_p_plus": 3.967341433572365e-08,
+      "prediction": 1,
+      "erased_prediction": 1,
+      "flipped_prediction": -1,
+      "opposite_world_prediction": -1,
+      "direct_prediction": 1,
+      "linear_prediction": -1
+    },
+    {
+      "source": [
+        -1,
+        1,
+        1
+      ],
+      "query": [
+        1,
+        1
+      ],
+      "world": -1,
+      "target": -1,
+      "split": "train",
+      "message": -1,
+      "message_p_plus": 3.967341433572365e-08,
+      "prediction": -1,
+      "erased_prediction": 1,
+      "flipped_prediction": 1,
+      "opposite_world_prediction": 1,
+      "direct_prediction": -1,
+      "linear_prediction": -1
+    },
+    {
+      "source": [
+        1,
+        -1,
+        1
+      ],
+      "query": [
+        -1,
+        -1
+      ],
+      "world": -1,
+      "target": -1,
+      "split": "train",
+      "message": -1,
+      "message_p_plus": 3.425447494373885e-08,
+      "prediction": -1,
+      "erased_prediction": 1,
+      "flipped_prediction": 1,
+      "opposite_world_prediction": 1,
+      "direct_prediction": -1,
+      "linear_prediction": -1
+    },
+    {
+      "source": [
+        1,
+        -1,
+        1
+      ],
+      "query": [
+        -1,
+        1
+      ],
+      "world": -1,
+      "target": 1,
+      "split": "train",
+      "message": -1,
+      "message_p_plus": 3.425447494373885e-08,
+      "prediction": 1,
+      "erased_prediction": 1,
+      "flipped_prediction": -1,
+      "opposite_world_prediction": -1,
+      "direct_prediction": 1,
+      "linear_prediction": -1
+    },
+    {
+      "source": [
+        1,
+        -1,
+        1
+      ],
+      "query": [
+        1,
+        -1
+      ],
+      "world": -1,
+      "target": 1,
+      "split": "test",
+      "message": -1,
+      "message_p_plus": 3.425447494373885e-08,
+      "prediction": 1,
+      "erased_prediction": 1,
+      "flipped_prediction": -1,
+      "opposite_world_prediction": -1,
+      "direct_prediction": 1,
+      "linear_prediction": -1
+    },
+    {
+      "source": [
+        1,
+        -1,
+        1
+      ],
+      "query": [
+        1,
+        1
+      ],
+      "world": -1,
+      "target": -1,
+      "split": "train",
+      "message": -1,
+      "message_p_plus": 3.425447494373885e-08,
+      "prediction": -1,
+      "erased_prediction": 1,
+      "flipped_prediction": 1,
+      "opposite_world_prediction": 1,
+      "direct_prediction": -1,
+      "linear_prediction": -1
+    },
+    {
+      "source": [
+        1,
+        1,
+        -1
+      ],
+      "query": [
+        -1,
+        -1
+      ],
+      "world": -1,
+      "target": -1,
+      "split": "train",
+      "message": 1,
+      "message_p_plus": 0.9999999996061115,
+      "prediction": 1,
+      "erased_prediction": 1,
+      "flipped_prediction": -1,
+      "opposite_world_prediction": 1,
+      "direct_prediction": -1,
+      "linear_prediction": -1
+    },
+    {
+      "source": [
+        1,
+        1,
+        -1
+      ],
+      "query": [
+        -1,
+        1
+      ],
+      "world": -1,
+      "target": 1,
+      "split": "train",
+      "message": 1,
+      "message_p_plus": 0.9999999996061115,
+      "prediction": -1,
+      "erased_prediction": 1,
+      "flipped_prediction": 1,
+      "opposite_world_prediction": -1,
+      "direct_prediction": 1,
+      "linear_prediction": -1
+    },
+    {
+      "source": [
+        1,
+        1,
+        -1
+      ],
+      "query": [
+        1,
+        -1
+      ],
+      "world": -1,
+      "target": 1,
+      "split": "train",
+      "message": 1,
+      "message_p_plus": 0.9999999996061115,
+      "prediction": -1,
+      "erased_prediction": 1,
+      "flipped_prediction": 1,
+      "opposite_world_prediction": -1,
+      "direct_prediction": 1,
+      "linear_prediction": -1
+    },
+    {
+      "source": [
+        1,
+        1,
+        -1
+      ],
+      "query": [
+        1,
+        1
+      ],
+      "world": -1,
+      "target": -1,
+      "split": "test",
+      "message": 1,
+      "message_p_plus": 0.9999999996061115,
+      "prediction": 1,
+      "erased_prediction": 1,
+      "flipped_prediction": -1,
+      "opposite_world_prediction": 1,
+      "direct_prediction": -1,
+      "linear_prediction": -1
+    },
+    {
+      "source": [
+        -1,
+        -1,
+        1
+      ],
+      "query": [
+        -1,
+        -1
+      ],
+      "world": 1,
+      "target": 1,
+      "split": "train",
+      "message": -1,
+      "message_p_plus": 3.93842993515092e-10,
+      "prediction": -1,
+      "erased_prediction": 1,
+      "flipped_prediction": 1,
+      "opposite_world_prediction": -1,
+      "direct_prediction": 1,
+      "linear_prediction": -1
+    },
+    {
+      "source": [
+        -1,
+        -1,
+        1
+      ],
+      "query": [
+        -1,
+        1
+      ],
+      "world": 1,
+      "target": -1,
+      "split": "test",
+      "message": -1,
+      "message_p_plus": 3.93842993515092e-10,
+      "prediction": 1,
+      "erased_prediction": 1,
+      "flipped_prediction": -1,
+      "opposite_world_prediction": 1,
+      "direct_prediction": -1,
+      "linear_prediction": -1
+    },
+    {
+      "source": [
+        -1,
+        -1,
+        1
+      ],
+      "query": [
+        1,
+        -1
+      ],
+      "world": 1,
+      "target": -1,
+      "split": "train",
+      "message": -1,
+      "message_p_plus": 3.93842993515092e-10,
+      "prediction": 1,
+      "erased_prediction": 1,
+      "flipped_prediction": -1,
+      "opposite_world_prediction": 1,
+      "direct_prediction": -1,
+      "linear_prediction": -1
+    },
+    {
+      "source": [
+        -1,
+        -1,
+        1
+      ],
+      "query": [
+        1,
+        1
+      ],
+      "world": 1,
+      "target": 1,
+      "split": "train",
+      "message": -1,
+      "message_p_plus": 3.93842993515092e-10,
+      "prediction": -1,
+      "erased_prediction": 1,
+      "flipped_prediction": 1,
+      "opposite_world_prediction": -1,
+      "direct_prediction": 1,
+      "linear_prediction": -1
+    },
+    {
+      "source": [
+        -1,
+        1,
+        -1
+      ],
+      "query": [
+        -1,
+        -1
+      ],
+      "world": 1,
+      "target": 1,
+      "split": "test",
+      "message": 1,
+      "message_p_plus": 0.9999999669390214,
+      "prediction": 1,
+      "erased_prediction": 1,
+      "flipped_prediction": -1,
+      "opposite_world_prediction": -1,
+      "direct_prediction": 1,
+      "linear_prediction": -1
+    },
+    {
+      "source": [
+        -1,
+        1,
+        -1
+      ],
+      "query": [
+        -1,
+        1
+      ],
+      "world": 1,
+      "target": -1,
+      "split": "train",
+      "message": 1,
+      "message_p_plus": 0.9999999669390214,
+      "prediction": -1,
+      "erased_prediction": 1,
+      "flipped_prediction": 1,
+      "opposite_world_prediction": 1,
+      "direct_prediction": -1,
+      "linear_prediction": -1
+    },
+    {
+      "source": [
+        -1,
+        1,
+        -1
+      ],
+      "query": [
+        1,
+        -1
+      ],
+      "world": 1,
+      "target": -1,
+      "split": "train",
+      "message": 1,
+      "message_p_plus": 0.9999999669390214,
+      "prediction": -1,
+      "erased_prediction": 1,
+      "flipped_prediction": 1,
+      "opposite_world_prediction": 1,
+      "direct_prediction": -1,
+      "linear_prediction": -1
+    },
+    {
+      "source": [
+        -1,
+        1,
+        -1
+      ],
+      "query": [
+        1,
+        1
+      ],
+      "world": 1,
+      "target": 1,
+      "split": "train",
+      "message": 1,
+      "message_p_plus": 0.9999999669390214,
+      "prediction": 1,
+      "erased_prediction": 1,
+      "flipped_prediction": -1,
+      "opposite_world_prediction": -1,
+      "direct_prediction": 1,
+      "linear_prediction": -1
+    },
+    {
+      "source": [
+        1,
+        -1,
+        -1
+      ],
+      "query": [
+        -1,
+        -1
+      ],
+      "world": 1,
+      "target": 1,
+      "split": "train",
+      "message": 1,
+      "message_p_plus": 0.9999999585328357,
+      "prediction": 1,
+      "erased_prediction": 1,
+      "flipped_prediction": -1,
+      "opposite_world_prediction": -1,
+      "direct_prediction": 1,
+      "linear_prediction": -1
+    },
+    {
+      "source": [
+        1,
+        -1,
+        -1
+      ],
+      "query": [
+        -1,
+        1
+      ],
+      "world": 1,
+      "target": -1,
+      "split": "train",
+      "message": 1,
+      "message_p_plus": 0.9999999585328357,
+      "prediction": -1,
+      "erased_prediction": 1,
+      "flipped_prediction": 1,
+      "opposite_world_prediction": 1,
+      "direct_prediction": -1,
+      "linear_prediction": -1
+    },
+    {
+      "source": [
+        1,
+        -1,
+        -1
+      ],
+      "query": [
+        1,
+        -1
+      ],
+      "world": 1,
+      "target": -1,
+      "split": "test",
+      "message": 1,
+      "message_p_plus": 0.9999999585328357,
+      "prediction": -1,
+      "erased_prediction": 1,
+      "flipped_prediction": 1,
+      "opposite_world_prediction": 1,
+      "direct_prediction": -1,
+      "linear_prediction": -1
+    },
+    {
+      "source": [
+        1,
+        -1,
+        -1
+      ],
+      "query": [
+        1,
+        1
+      ],
+      "world": 1,
+      "target": 1,
+      "split": "train",
+      "message": 1,
+      "message_p_plus": 0.9999999585328357,
+      "prediction": 1,
+      "erased_prediction": 1,
+      "flipped_prediction": -1,
+      "opposite_world_prediction": -1,
+      "direct_prediction": 1,
+      "linear_prediction": -1
+    },
+    {
+      "source": [
+        1,
+        1,
+        1
+      ],
+      "query": [
+        -1,
+        -1
+      ],
+      "world": 1,
+      "target": 1,
+      "split": "train",
+      "message": 1,
+      "message_p_plus": 0.9999999696069238,
+      "prediction": 1,
+      "erased_prediction": 1,
+      "flipped_prediction": -1,
+      "opposite_world_prediction": 1,
+      "direct_prediction": 1,
+      "linear_prediction": -1
+    },
+    {
+      "source": [
+        1,
+        1,
+        1
+      ],
+      "query": [
+        -1,
+        1
+      ],
+      "world": 1,
+      "target": -1,
+      "split": "train",
+      "message": 1,
+      "message_p_plus": 0.9999999696069238,
+      "prediction": -1,
+      "erased_prediction": 1,
+      "flipped_prediction": 1,
+      "opposite_world_prediction": -1,
+      "direct_prediction": -1,
+      "linear_prediction": -1
+    },
+    {
+      "source": [
+        1,
+        1,
+        1
+      ],
+      "query": [
+        1,
+        -1
+      ],
+      "world": 1,
+      "target": -1,
+      "split": "train",
+      "message": 1,
+      "message_p_plus": 0.9999999696069238,
+      "prediction": -1,
+      "erased_prediction": 1,
+      "flipped_prediction": 1,
+      "opposite_world_prediction": -1,
+      "direct_prediction": -1,
+      "linear_prediction": -1
+    },
+    {
+      "source": [
+        1,
+        1,
+        1
+      ],
+      "query": [
+        1,
+        1
+      ],
+      "world": 1,
+      "target": 1,
+      "split": "test",
+      "message": 1,
+      "message_p_plus": 0.9999999696069238,
+      "prediction": 1,
+      "erased_prediction": 1,
+      "flipped_prediction": -1,
+      "opposite_world_prediction": 1,
+      "direct_prediction": 1,
+      "linear_prediction": -1
+    }
+  ],
+  "fresh_cases": [
+    {
+      "source": [
+        -1,
+        -1,
+        -1
+      ],
+      "query": [
+        -1,
+        -1
+      ],
+      "world": -1,
+      "target": -1,
+      "split": "train",
+      "message": -1,
+      "message_p_plus": 3.220814637737511e-08,
+      "prediction": -1,
+      "erased_prediction": 1,
+      "flipped_prediction": 1,
+      "opposite_world_prediction": -1
+    },
+    {
+      "source": [
+        -1,
+        -1,
+        -1
+      ],
+      "query": [
+        -1,
+        1
+      ],
+      "world": -1,
+      "target": 1,
+      "split": "test",
+      "message": -1,
+      "message_p_plus": 3.220814637737511e-08,
+      "prediction": 1,
+      "erased_prediction": 1,
+      "flipped_prediction": -1,
+      "opposite_world_prediction": 1
+    },
+    {
+      "source": [
+        -1,
+        -1,
+        -1
+      ],
+      "query": [
+        1,
+        -1
+      ],
+      "world": -1,
+      "target": 1,
+      "split": "train",
+      "message": -1,
+      "message_p_plus": 3.220814637737511e-08,
+      "prediction": 1,
+      "erased_prediction": -1,
+      "flipped_prediction": -1,
+      "opposite_world_prediction": 1
+    },
+    {
+      "source": [
+        -1,
+        -1,
+        -1
+      ],
+      "query": [
+        1,
+        1
+      ],
+      "world": -1,
+      "target": -1,
+      "split": "train",
+      "message": -1,
+      "message_p_plus": 3.220814637737511e-08,
+      "prediction": -1,
+      "erased_prediction": 1,
+      "flipped_prediction": 1,
+      "opposite_world_prediction": -1
+    },
+    {
+      "source": [
+        -1,
+        1,
+        1
+      ],
+      "query": [
+        -1,
+        -1
+      ],
+      "world": -1,
+      "target": -1,
+      "split": "test",
+      "message": -1,
+      "message_p_plus": 3.967341433572365e-08,
+      "prediction": -1,
+      "erased_prediction": 1,
+      "flipped_prediction": 1,
+      "opposite_world_prediction": 1
+    },
+    {
+      "source": [
+        -1,
+        1,
+        1
+      ],
+      "query": [
+        -1,
+        1
+      ],
+      "world": -1,
+      "target": 1,
+      "split": "train",
+      "message": -1,
+      "message_p_plus": 3.967341433572365e-08,
+      "prediction": 1,
+      "erased_prediction": 1,
+      "flipped_prediction": -1,
+      "opposite_world_prediction": -1
+    },
+    {
+      "source": [
+        -1,
+        1,
+        1
+      ],
+      "query": [
+        1,
+        -1
+      ],
+      "world": -1,
+      "target": 1,
+      "split": "train",
+      "message": -1,
+      "message_p_plus": 3.967341433572365e-08,
+      "prediction": 1,
+      "erased_prediction": -1,
+      "flipped_prediction": -1,
+      "opposite_world_prediction": -1
+    },
+    {
+      "source": [
+        -1,
+        1,
+        1
+      ],
+      "query": [
+        1,
+        1
+      ],
+      "world": -1,
+      "target": -1,
+      "split": "train",
+      "message": -1,
+      "message_p_plus": 3.967341433572365e-08,
+      "prediction": -1,
+      "erased_prediction": 1,
+      "flipped_prediction": 1,
+      "opposite_world_prediction": 1
+    },
+    {
+      "source": [
+        1,
+        -1,
+        1
+      ],
+      "query": [
+        -1,
+        -1
+      ],
+      "world": -1,
+      "target": -1,
+      "split": "train",
+      "message": -1,
+      "message_p_plus": 3.425447494373885e-08,
+      "prediction": -1,
+      "erased_prediction": 1,
+      "flipped_prediction": 1,
+      "opposite_world_prediction": 1
+    },
+    {
+      "source": [
+        1,
+        -1,
+        1
+      ],
+      "query": [
+        -1,
+        1
+      ],
+      "world": -1,
+      "target": 1,
+      "split": "train",
+      "message": -1,
+      "message_p_plus": 3.425447494373885e-08,
+      "prediction": 1,
+      "erased_prediction": 1,
+      "flipped_prediction": -1,
+      "opposite_world_prediction": -1
+    },
+    {
+      "source": [
+        1,
+        -1,
+        1
+      ],
+      "query": [
+        1,
+        -1
+      ],
+      "world": -1,
+      "target": 1,
+      "split": "test",
+      "message": -1,
+      "message_p_plus": 3.425447494373885e-08,
+      "prediction": 1,
+      "erased_prediction": -1,
+      "flipped_prediction": -1,
+      "opposite_world_prediction": -1
+    },
+    {
+      "source": [
+        1,
+        -1,
+        1
+      ],
+      "query": [
+        1,
+        1
+      ],
+      "world": -1,
+      "target": -1,
+      "split": "train",
+      "message": -1,
+      "message_p_plus": 3.425447494373885e-08,
+      "prediction": -1,
+      "erased_prediction": 1,
+      "flipped_prediction": 1,
+      "opposite_world_prediction": 1
+    },
+    {
+      "source": [
+        1,
+        1,
+        -1
+      ],
+      "query": [
+        -1,
+        -1
+      ],
+      "world": -1,
+      "target": -1,
+      "split": "train",
+      "message": 1,
+      "message_p_plus": 0.9999999996061115,
+      "prediction": 1,
+      "erased_prediction": 1,
+      "flipped_prediction": -1,
+      "opposite_world_prediction": 1
+    },
+    {
+      "source": [
+        1,
+        1,
+        -1
+      ],
+      "query": [
+        -1,
+        1
+      ],
+      "world": -1,
+      "target": 1,
+      "split": "train",
+      "message": 1,
+      "message_p_plus": 0.9999999996061115,
+      "prediction": -1,
+      "erased_prediction": 1,
+      "flipped_prediction": 1,
+      "opposite_world_prediction": -1
+    },
+    {
+      "source": [
+        1,
+        1,
+        -1
+      ],
+      "query": [
+        1,
+        -1
+      ],
+      "world": -1,
+      "target": 1,
+      "split": "train",
+      "message": 1,
+      "message_p_plus": 0.9999999996061115,
+      "prediction": -1,
+      "erased_prediction": -1,
+      "flipped_prediction": 1,
+      "opposite_world_prediction": -1
+    },
+    {
+      "source": [
+        1,
+        1,
+        -1
+      ],
+      "query": [
+        1,
+        1
+      ],
+      "world": -1,
+      "target": -1,
+      "split": "test",
+      "message": 1,
+      "message_p_plus": 0.9999999996061115,
+      "prediction": 1,
+      "erased_prediction": 1,
+      "flipped_prediction": -1,
+      "opposite_world_prediction": 1
+    },
+    {
+      "source": [
+        -1,
+        -1,
+        1
+      ],
+      "query": [
+        -1,
+        -1
+      ],
+      "world": 1,
+      "target": 1,
+      "split": "train",
+      "message": -1,
+      "message_p_plus": 3.93842993515092e-10,
+      "prediction": -1,
+      "erased_prediction": 1,
+      "flipped_prediction": 1,
+      "opposite_world_prediction": -1
+    },
+    {
+      "source": [
+        -1,
+        -1,
+        1
+      ],
+      "query": [
+        -1,
+        1
+      ],
+      "world": 1,
+      "target": -1,
+      "split": "test",
+      "message": -1,
+      "message_p_plus": 3.93842993515092e-10,
+      "prediction": 1,
+      "erased_prediction": 1,
+      "flipped_prediction": -1,
+      "opposite_world_prediction": 1
+    },
+    {
+      "source": [
+        -1,
+        -1,
+        1
+      ],
+      "query": [
+        1,
+        -1
+      ],
+      "world": 1,
+      "target": -1,
+      "split": "train",
+      "message": -1,
+      "message_p_plus": 3.93842993515092e-10,
+      "prediction": 1,
+      "erased_prediction": -1,
+      "flipped_prediction": -1,
+      "opposite_world_prediction": 1
+    },
+    {
+      "source": [
+        -1,
+        -1,
+        1
+      ],
+      "query": [
+        1,
+        1
+      ],
+      "world": 1,
+      "target": 1,
+      "split": "train",
+      "message": -1,
+      "message_p_plus": 3.93842993515092e-10,
+      "prediction": -1,
+      "erased_prediction": 1,
+      "flipped_prediction": 1,
+      "opposite_world_prediction": -1
+    },
+    {
+      "source": [
+        -1,
+        1,
+        -1
+      ],
+      "query": [
+        -1,
+        -1
+      ],
+      "world": 1,
+      "target": 1,
+      "split": "test",
+      "message": 1,
+      "message_p_plus": 0.9999999669390214,
+      "prediction": 1,
+      "erased_prediction": 1,
+      "flipped_prediction": -1,
+      "opposite_world_prediction": -1
+    },
+    {
+      "source": [
+        -1,
+        1,
+        -1
+      ],
+      "query": [
+        -1,
+        1
+      ],
+      "world": 1,
+      "target": -1,
+      "split": "train",
+      "message": 1,
+      "message_p_plus": 0.9999999669390214,
+      "prediction": -1,
+      "erased_prediction": 1,
+      "flipped_prediction": 1,
+      "opposite_world_prediction": 1
+    },
+    {
+      "source": [
+        -1,
+        1,
+        -1
+      ],
+      "query": [
+        1,
+        -1
+      ],
+      "world": 1,
+      "target": -1,
+      "split": "train",
+      "message": 1,
+      "message_p_plus": 0.9999999669390214,
+      "prediction": -1,
+      "erased_prediction": -1,
+      "flipped_prediction": 1,
+      "opposite_world_prediction": 1
+    },
+    {
+      "source": [
+        -1,
+        1,
+        -1
+      ],
+      "query": [
+        1,
+        1
+      ],
+      "world": 1,
+      "target": 1,
+      "split": "train",
+      "message": 1,
+      "message_p_plus": 0.9999999669390214,
+      "prediction": 1,
+      "erased_prediction": 1,
+      "flipped_prediction": -1,
+      "opposite_world_prediction": -1
+    },
+    {
+      "source": [
+        1,
+        -1,
+        -1
+      ],
+      "query": [
+        -1,
+        -1
+      ],
+      "world": 1,
+      "target": 1,
+      "split": "train",
+      "message": 1,
+      "message_p_plus": 0.9999999585328357,
+      "prediction": 1,
+      "erased_prediction": 1,
+      "flipped_prediction": -1,
+      "opposite_world_prediction": -1
+    },
+    {
+      "source": [
+        1,
+        -1,
+        -1
+      ],
+      "query": [
+        -1,
+        1
+      ],
+      "world": 1,
+      "target": -1,
+      "split": "train",
+      "message": 1,
+      "message_p_plus": 0.9999999585328357,
+      "prediction": -1,
+      "erased_prediction": 1,
+      "flipped_prediction": 1,
+      "opposite_world_prediction": 1
+    },
+    {
+      "source": [
+        1,
+        -1,
+        -1
+      ],
+      "query": [
+        1,
+        -1
+      ],
+      "world": 1,
+      "target": -1,
+      "split": "test",
+      "message": 1,
+      "message_p_plus": 0.9999999585328357,
+      "prediction": -1,
+      "erased_prediction": -1,
+      "flipped_prediction": 1,
+      "opposite_world_prediction": 1
+    },
+    {
+      "source": [
+        1,
+        -1,
+        -1
+      ],
+      "query": [
+        1,
+        1
+      ],
+      "world": 1,
+      "target": 1,
+      "split": "train",
+      "message": 1,
+      "message_p_plus": 0.9999999585328357,
+      "prediction": 1,
+      "erased_prediction": 1,
+      "flipped_prediction": -1,
+      "opposite_world_prediction": -1
+    },
+    {
+      "source": [
+        1,
+        1,
+        1
+      ],
+      "query": [
+        -1,
+        -1
+      ],
+      "world": 1,
+      "target": 1,
+      "split": "train",
+      "message": 1,
+      "message_p_plus": 0.9999999696069238,
+      "prediction": 1,
+      "erased_prediction": 1,
+      "flipped_prediction": -1,
+      "opposite_world_prediction": 1
+    },
+    {
+      "source": [
+        1,
+        1,
+        1
+      ],
+      "query": [
+        -1,
+        1
+      ],
+      "world": 1,
+      "target": -1,
+      "split": "train",
+      "message": 1,
+      "message_p_plus": 0.9999999696069238,
+      "prediction": -1,
+      "erased_prediction": 1,
+      "flipped_prediction": 1,
+      "opposite_world_prediction": -1
+    },
+    {
+      "source": [
+        1,
+        1,
+        1
+      ],
+      "query": [
+        1,
+        -1
+      ],
+      "world": 1,
+      "target": -1,
+      "split": "train",
+      "message": 1,
+      "message_p_plus": 0.9999999696069238,
+      "prediction": -1,
+      "erased_prediction": -1,
+      "flipped_prediction": 1,
+      "opposite_world_prediction": -1
+    },
+    {
+      "source": [
+        1,
+        1,
+        1
+      ],
+      "query": [
+        1,
+        1
+      ],
+      "world": 1,
+      "target": 1,
+      "split": "test",
+      "message": 1,
+      "message_p_plus": 0.9999999696069238,
+      "prediction": 1,
+      "erased_prediction": 1,
+      "flipped_prediction": -1,
+      "opposite_world_prediction": 1
+    }
+  ],
+  "elapsed_seconds": 1.5190072299999429,
+  "fingerprint": "ac8494b4b57c98823faae4c22e127b5b8a6d26fe928b224c1de6b9208dad6295",
+  "weights_sha256": "83dd7a74f50199b6915587ee05d40dc39557b8e3c6de7806af093ca0ba7bc38e"
+}

@@ -1,0 +1,183 @@
+{
+  "registered": true,
+  "gates": {
+    "status": "COMPLETE",
+    "registered_seed_count": true,
+    "G1": "FAIL",
+    "G2": "FAIL",
+    "G3": "FAIL",
+    "G4": "REPORTED",
+    "qualifying_seeds": {
+      "G1": 2,
+      "G2": 2,
+      "G3": 2
+    }
+  },
+  "seeds": [
+    {
+      "seed": 41,
+      "joint": {
+        "train": 1.0,
+        "test": 1.0,
+        "full": 1.0,
+        "rule_alignment": 1.0,
+        "erased": 0.5,
+        "flipped": 0.0,
+        "opposite_world": 0.0,
+        "random": 0.5
+      },
+      "fresh": {
+        "train": 1.0,
+        "test": 1.0,
+        "full": 1.0,
+        "rule_alignment": 1.0,
+        "erased": 0.5,
+        "flipped": 0.0,
+        "opposite_world": 0.0,
+        "random": 0.5
+      },
+      "direct": {
+        "train": 1.0,
+        "test": 1.0,
+        "full": 1.0
+      },
+      "linear": {
+        "train": 0.5,
+        "test": 0.5,
+        "full": 0.5
+      }
+    },
+    {
+      "seed": 97,
+      "joint": {
+        "train": 0.75,
+        "test": 0.75,
+        "full": 0.75,
+        "rule_alignment": 0.75,
+        "erased": 0.5,
+        "flipped": 0.25,
+        "opposite_world": 0.25,
+        "random": 0.5
+      },
+      "fresh": {
+        "train": 0.75,
+        "test": 0.75,
+        "full": 0.75,
+        "rule_alignment": 0.75,
+        "erased": 0.5,
+        "flipped": 0.25,
+        "opposite_world": 0.25,
+        "random": 0.5
+      },
+      "direct": {
+        "train": 1.0,
+        "test": 1.0,
+        "full": 1.0
+      },
+      "linear": {
+        "train": 0.5,
+        "test": 0.5,
+        "full": 0.5
+      }
+    },
+    {
+      "seed": 127,
+      "joint": {
+        "train": 0.75,
+        "test": 0.75,
+        "full": 0.75,
+        "rule_alignment": 0.75,
+        "erased": 0.5,
+        "flipped": 0.25,
+        "opposite_world": 0.25,
+        "random": 0.5
+      },
+      "fresh": {
+        "train": 0.75,
+        "test": 0.75,
+        "full": 0.75,
+        "rule_alignment": 0.75,
+        "erased": 0.5,
+        "flipped": 0.25,
+        "opposite_world": 0.25,
+        "random": 0.5
+      },
+      "direct": {
+        "train": 1.0,
+        "test": 0.75,
+        "full": 0.9375
+      },
+      "linear": {
+        "train": 0.5,
+        "test": 0.5,
+        "full": 0.5
+      }
+    },
+    {
+      "seed": 203,
+      "joint": {
+        "train": 1.0,
+        "test": 1.0,
+        "full": 1.0,
+        "rule_alignment": 1.0,
+        "erased": 0.5,
+        "flipped": 0.0,
+        "opposite_world": 0.0,
+        "random": 0.5
+      },
+      "fresh": {
+        "train": 1.0,
+        "test": 1.0,
+        "full": 1.0,
+        "rule_alignment": 1.0,
+        "erased": 0.5,
+        "flipped": 0.0,
+        "opposite_world": 0.0,
+        "random": 0.5
+      },
+      "direct": {
+        "train": 1.0,
+        "test": 0.75,
+        "full": 0.9375
+      },
+      "linear": {
+        "train": 0.5,
+        "test": 0.5,
+        "full": 0.5
+      }
+    },
+    {
+      "seed": 509,
+      "joint": {
+        "train": 0.75,
+        "test": 0.75,
+        "full": 0.75,
+        "rule_alignment": 0.75,
+        "erased": 0.5,
+        "flipped": 0.25,
+        "opposite_world": 0.25,
+        "random": 0.5
+      },
+      "fresh": {
+        "train": 0.75,
+        "test": 0.75,
+        "full": 0.75,
+        "rule_alignment": 0.75,
+        "erased": 0.5,
+        "flipped": 0.25,
+        "opposite_world": 0.25,
+        "random": 0.5
+      },
+      "direct": {
+        "train": 1.0,
+        "test": 1.0,
+        "full": 1.0
+      },
+      "linear": {
+        "train": 0.5,
+        "test": 0.5,
+        "full": 0.5
+      }
+    }
+  ]
+}

@@ -9,10 +9,19 @@ Do not edit Claude's repositories. Do not upload the raw private chat transcript
 
 ## Current checkpoint
 
-Protocol checkpoint `f18a0c4` is on main. Implementation complete; ten tests pass,
-including finite-difference gradients and interruption/configuration guards. No
-registered training has run yet. Next: run `python run.py --out results/v0`,
-record every result, verify resume, review and push the result checkpoint.
+v0 has completed its one registered batch. G0 PASS; G1/G2/G3 FAIL (2/5
+seeds qualify, required 4/5). G4 comparison recorded. Joint and fresh-reader mean
+held-out accuracy 85%, direct MLP 90%, linear 50%. Full table: RESULTS.md.
+
+Ten tests passed. Reloading saved NPZ weights reproduced all model metrics.
+Resume reused all five seeds without retraining. Independent review found no issues requiring changes (REVIEW.md). All code,
+results and handoff documents are included in this result checkpoint on main.
+
+**First unchecked scientific step:** write a v1 diagnostic protocol, not another
+v0 tuning run. Inspect the two misencoded source triples in each failed seed
+(RESULTS.md) and separate sender-learning failure from receiver/channel failure.
+Choose fresh seeds and a controlled intervention before running anything. Do not
+jump to images or a J-lens yet. v0 proves feasibility in 2/5 runs, not reliability.
 
 Git HTTPS pushes lack credentials here; authenticated GitHub connector tree/commit/
 ref operations work. Use a compare-and-swap expected head, never force overwrite.
@@ -31,17 +40,17 @@ ref operations work. Use a compare-and-swap expected head, never force overwrite
   No large installs, expensive model runs, or repeated tuning batches.
 - Durable CHECKLIST/HANDOFF take precedence over ephemeral workflow scratch.
 
-## Resume commands once code exists
+## Verify and reproduce
 
 ```bash
 git pull --ff-only
 python -m pip install -r requirements.txt
 python -m unittest discover -s tests -v
-python run.py --out results/v0
+python run.py --out results/local-v0
 ```
 
-Read PREREG.md before touching a model. If results/v0 already has all five seeds,
-do not retrain; read summary.json and RESULTS.md. If a change alters the protocol
+Read PREREG.md before touching a model. The committed results/v0 already has all five seeds; read summary.json and
+RESULTS.md first. The command above creates/resumes a separate local reproduction. If a change alters the protocol
 or experiment code, leave v0 intact and start a versioned directory/protocol.
 
 ## Source context

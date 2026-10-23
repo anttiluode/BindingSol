@@ -1,0 +1,22 @@
+{
+  "config": {
+    "seeds": [
+      41,
+      97,
+      127,
+      203,
+      509
+    ],
+    "steps": 5000,
+    "lr": 0.01,
+    "source": {
+      "binding.py": "957000e2d825a94fbd1b1d0e1c0d07bff2d9ea6547d4a7a642c4af1a93f5190d",
+      "run.py": "6a3c36caf330e9225319c5d3036c5feb4778f7b454f1384c9fa8f9e3c532a058",
+      "PREREG.md": "ab401b2896075604c913c139c9fd97fd3e5abc7aeec41ef2b860c5dd32d53b1e"
+    },
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  },
+  "git_commit": "3f440dcae6d027bd7c182450ea3661ec57fb91cb",
+  "registered": true
+}

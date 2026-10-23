@@ -7,6 +7,9 @@ three-piece binding and usable information. Start with [CHECKLIST.md](CHECKLIST.
 and [HANDOFF.md](HANDOFF.md). They are the durable working memory for Sol or any
 successor; the chat is not required.
 
+**Status:** v0 is complete; reliability gates failed (2/5 perfect runs).
+Read [RESULTS.md](RESULTS.md) for all seeds and controls. Ten tests pass; [independent review](REVIEW.md) verified the saved results.
+
 ## First experiment
 
 Two worlds have opposite rules. A sender sees three signs from one world. A
@@ -24,12 +27,13 @@ experiment before the first run; failures stay recorded.
 ```bash
 python -m pip install -r requirements.txt
 python -m unittest discover -s tests -v
-python run.py --out results/v0
+python run.py --out results/local-v0
 ```
 
 Windows: replace `python` with `python3.13` if that is your installed command.
 No GPU, API key, model download or paid inference is needed. The runner resumes
 completed seeds and refuses to mix changed code/configuration with existing runs.
+Use `results/local-v0` for your own run; `results/v0` contains the frozen recorded batch.
 
 ## Reading order
 
