@@ -9,9 +9,13 @@ Do not edit Claude's repositories. Do not upload the raw private chat transcript
 
 ## Current checkpoint
 
-Protocol and implementation plan written. No training has run yet. Next: push
-this checkpoint, implement tests and the tiny NumPy baseline, run exactly the
-registered five seeds, update this file and CHECKLIST.md, push the results.
+Protocol checkpoint `f18a0c4` is on main. Implementation complete; ten tests pass,
+including finite-difference gradients and interruption/configuration guards. No
+registered training has run yet. Next: run `python run.py --out results/v0`,
+record every result, verify resume, review and push the result checkpoint.
+
+Git HTTPS pushes lack credentials here; authenticated GitHub connector tree/commit/
+ref operations work. Use a compare-and-swap expected head, never force overwrite.
 
 ## Decisions made by this implementer
 

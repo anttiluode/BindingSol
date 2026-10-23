@@ -8,14 +8,14 @@ Update this file and HANDOFF.md in every meaningful checkpoint commit.
 - [x] Work only in BindingSol; preserve predecessor repositories.
 - [x] Record finite-task scope, ordinary controls and claim limits.
 - [x] Write fixed v0 protocol before training.
-- [ ] Push the protocol checkpoint before running any learner.
+- [x] Push the protocol checkpoint before running any learner (`f18a0c4`).
 
 ## Checkpoint 1 — implementation
-- [ ] Implement exhaustive generator and leakage/balance checks.
-- [ ] Verify exact discrete-channel gradients with finite differences.
-- [ ] Implement joint learning, frozen-sender fresh reader and matched baseline.
-- [ ] Implement interventions, atomic per-seed saves and manifest-checked resume.
-- [ ] Run the complete test suite.
+- [x] Implement exhaustive generator and leakage/balance checks.
+- [x] Verify exact discrete-channel gradients with finite differences.
+- [x] Implement joint learning, frozen-sender fresh reader and matched baseline.
+- [x] Implement interventions, atomic per-seed saves and manifest-checked resume.
+- [x] Run the complete test suite.
 
 ## Checkpoint 2 — one registered CPU batch
 - [ ] Run seeds 41, 97, 127, 203, 509 without retuning.
