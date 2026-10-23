@@ -31,3 +31,16 @@ See RESULTS.md. Stop after this batch; do not retune v0.
 - [ ] Preregister the next test based on v0's actual failure or success.
 - [ ] Test new symbol/layout contexts and zero-shot cross-play.
 - [ ] Only then consider rendered pieces, images or a language-model/J-lens reader.
+
+## New user-requested design track — October 23
+
+This is a separate architecture proposal, not a reversal of the v0 failure.
+
+- [x] Read supplied design notes and current BindingClaude Part 3 ledger.
+- [x] Specify an inspectable categorical learning/settling system and bounded build plan.
+- [x] Obtain a builder check and resolve weight-update, joint-baseline, confirmation-pool and proposal-exhaustion gaps.
+- [x] Inspect SihtiGraphModel code and protocol without changing the running experiment; record verification limits.
+- [ ] Sol implements Task 1 of the relational plan in an isolated branch.
+- [ ] Complete the instrument, inspector and development checks.
+- [ ] Lock the relational protocol before one registered batch; preserve every failure.
+- [ ] Inspect Antti's actual SihtiGraphModel results when supplied; no real-run verdict yet.

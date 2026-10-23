@@ -9,6 +9,42 @@ Do not edit Claude's repositories. Do not upload the raw private chat transcript
 
 ## Current checkpoint
 
+### New design request, October 23
+
+Antti asked Astra to design an inspectable learning/purification system for Sol
+to build, then asked for analysis while SihtiGraphModel's real run was active.
+These are separate from the completed communication v0 below.
+
+- Design: `docs/superpowers/specs/2026-10-23-sihti-relational-design.md`.
+- Task checklist: `docs/superpowers/plans/2026-10-23-sihti-relational.md`.
+- Current instrument review: `docs/sihtigraphmodel-v1-review.md`.
+
+The design is proposed and unimplemented. A builder review identified four
+issues; the design now specifies unconditional weight updates, a joint neural
+baseline, separated finite confirmation pools and continued learning after
+proposal exhaustion. No new learning result is claimed. The next design-track
+action is Task 1 in the plan; read the spec first. Do not launch another CIFAR
+run or edit the existing SihtiGraphModel experiment. Its classifier-response
+coefficients are not automatically scene-completion couplings.
+
+A separate binary-motif proposal appeared during this review on
+`design/next-sihti-visible-circuit-20261023` (head `25e7f39`). It is preserved;
+this checkpoint neither merges nor edits that branch. The categorical design
+here is a more explicit alternative, not a second build request. Sol should
+reconcile the two before implementation and build only one agreed scope.
+
+Read-only verification for SihtiGraphModel: three NumPy tests passed; two torch
+tests skipped here; synthetic smoke R2 0.9997078; separate 64-switch sparse fixture
+R2 0.9994651. Real CIFAR receipt remains on Antti's machine and was not inspected.
+The old v0 diagnostic below remains an unresolved separate track, not a gate that
+silently cancels Antti's newer design request.
+
+Exact next read command:
+
+```bash
+cat docs/superpowers/specs/2026-10-23-sihti-relational-design.md docs/superpowers/plans/2026-10-23-sihti-relational.md
+```
+
 v0 has completed its one registered batch. G0 PASS; G1/G2/G3 FAIL (2/5
 seeds qualify, required 4/5). G4 comparison recorded. Joint and fresh-reader mean
 held-out accuracy 85%, direct MLP 90%, linear 50%. Full table: RESULTS.md.

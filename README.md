@@ -10,6 +10,11 @@ successor; the chat is not required.
 **Status:** v0 is complete; reliability gates failed (2/5 perfect runs).
 Read [RESULTS.md](RESULTS.md) for all seeds and controls. Ten tests pass; [independent review](REVIEW.md) verified the saved results.
 
+**New design, not implemented:** [Inspectable Sihti learning and completion](docs/superpowers/specs/2026-10-23-sihti-relational-design.md), with a [Sol build checklist](docs/superpowers/plans/2026-10-23-sihti-relational.md).
+The [SihtiGraphModel v1 review](docs/sihtigraphmodel-v1-review.md) explains how the
+separate running image-distillation experiment fits this proposal. Its real CIFAR
+results have not been inspected here.
+
 ## First experiment
 
 Two worlds have opposite rules. A sender sees three signs from one world. A
